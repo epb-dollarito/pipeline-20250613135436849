@@ -262,7 +262,7 @@ spec:
       workspaces:
         - name: output
           workspace: pipeline-ws
-    - name: code-risk-analyzer
+    #- name: code-risk-analyzer
       runAfter:
         - git-clone
       taskRef:
